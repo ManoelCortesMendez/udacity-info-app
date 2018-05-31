@@ -5,18 +5,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    tools:layout_editor_absoluteY="81dp">
+    tools:layout_editor_absoluteY="81dp"
+    android:background="#FAF6F5">
 
 
     <ImageView
         android:id="@+id/heroImage"
         android:layout_width="0dp"
         android:layout_height="240dp"
+        android:contentDescription="@string/color_splash"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/color_splash"
-        android:contentDescription="@string/color_splash" />
+        app:srcCompat="@drawable/color_splash" />
+
+    <TextView
+        android:id="@+id/udacityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/udacity"
+        android:textAllCaps="true"
+        android:textColor="#455a64"
+        android:textSize="36sp"
+        app:fontFamily="@font/montserrat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/udacityLogo"
+        app:layout_constraintTop_toBottomOf="@+id/heroImage" />
+
+    <ImageView
+        android:id="@+id/udacityLogo"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:contentDescription="@string/udacity_logo"
+        app:layout_constraintBottom_toBottomOf="@+id/udacityText"
+        app:layout_constraintEnd_toStartOf="@+id/udacityText"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/udacityText"
+        app:layout_constraintVertical_bias="0.487"
+        app:srcCompat="@drawable/udacity_logo" />
 
 </android.support.constraint.ConstraintLayout>

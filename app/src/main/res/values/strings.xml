@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Udacity Info App</string>
     <string name="color_splash">Udacity logo and splash of colors</string>
+    <string name="udacity">Udacity</string>
+    <string name="udacity_logo">Udacity logo</string>
+    <string name="udacity_website">www.udacity.com</string>
+    <string name="udacity_email">support@udacity.com</string>
 </resources>
