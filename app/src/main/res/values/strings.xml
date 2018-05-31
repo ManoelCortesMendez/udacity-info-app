@@ -5,4 +5,7 @@
     <string name="udacity_logo">Udacity logo</string>
     <string name="udacity_website">www.udacity.com</string>
     <string name="udacity_email">support@udacity.com</string>
+    <string name="website_label">Website</string>
+    <string name="email_label">Email</string>
+    <string name="udacity_slogan">Be In Demand</string>
 </resources>
